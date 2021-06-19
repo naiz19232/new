@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <center>
+        <ul class="menu1">
+            <li class="links"><a href="#home">Home</a></li>
+            <li class="links"><a href="#myCarousel">slide view</a></li>
+            <li class="links"><a href="#grid">grid view</a></li>
+       </ul>
+    </center>
+
+<div class="container">
+
+
+<div id="myCarousel" class="carousel slide" >
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <center>
+        <a href="#" target="_blank">
+          <img src="Avengers.png" class="img-responsive">
+        </a>
+          <div class="carousel-content">
+            <p>Avengers</p>
+          </div>
+        </center>
+      </div>
+
+      <div class="item">
+        <center>
+        <a href="#" target="_blank">
+          <img src="Iron Man 3 Transform.gif" class="img-responsive">
+        </a>
+          <div class="carousel-content">
+            <p>iron man</p>
+          </div>
+        </center>
+      </div>
+    
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+ 
+    <br> <br> <br> <br> <br>
+
+</div>
+<div id="grid">
+    <h1>
+
+        Grid Gif Gallery
+        </h1>
+        <span>
+        <img id="one" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/82270e70-01a6-4570-8622-80a356bb7daa/dd7tmbx-3cf41fb0-8b94-4680-9ccf-8fa3717ce35a.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzgyMjcwZTcwLTAxYTYtNDU3MC04NjIyLTgwYTM1NmJiN2RhYVwvZGQ3dG1ieC0zY2Y0MWZiMC04Yjk0LTQ2ODAtOWNjZi04ZmEzNzE3Y2UzNWEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.QqeUTW9b-Q-kUvGGdBJsZb9j_irgRczu1c6fXLn5SN4">
+            <img id="two" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/93bf3adc-3ca4-4b61-a956-8e2a22f5c64f/db0959r-9b01764d-e502-424a-a33a-5081eb1745cb.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzkzYmYzYWRjLTNjYTQtNGI2MS1hOTU2LThlMmEyMmY1YzY0ZlwvZGIwOTU5ci05YjAxNzY0ZC1lNTAyLTQyNGEtYTMzYS01MDgxZWIxNzQ1Y2IuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0._eR3iFUZO-8dU5oEWlyhKgd8GHjhvmPocup7HCursbE">
+            <img id="three" src="https://giffiles.alphacoders.com/127/12775.gif">
+            <img id="four" src="https://thumbs.gfycat.com/FarGoodnaturedCondor-small.gif">
+            <img id="five" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/82270e70-01a6-4570-8622-80a356bb7daa/dd9thho-b21a2f73-d7b6-4163-9619-c98881d79ada.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzgyMjcwZTcwLTAxYTYtNDU3MC04NjIyLTgwYTM1NmJiN2RhYVwvZGQ5dGhoby1iMjFhMmY3My1kN2I2LTQxNjMtOTYxOS1jOTg4ODFkNzlhZGEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.4U2rYyJCTY5TRhXsJ9z3Ozk-IPxZeRFWmf3Pdxc-Ob8">
+        </span> 
+</div>
+
+
+
+</body>
+</html>

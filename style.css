@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.first{
+    width: 400px;
+}
+.container
+{
+    text-align: center;
+}
+#myCarousel
+{
+    background-color: red;
+}
+
+#myCarousel img
+{
+    height: 300px;
+    margin-top: 35px;
+}
+
+.carousel-inner p
+{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color : white;
+    font-size: 20px;
+}
+#myCarouse2
+{
+    background-color: #b5d0d4;
+}
+
+#myCarouse2 img
+{
+    height: 300px;
+    margin-top: 35px;
+}
+#app {
+    width: 100%;
+    height: 800px;
+    background-color: aliceblue;
+}
+
+.container
+{
+    text-align: center;
+}
+.menu1{
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    z-index: 10;
+    background: khaki;
+}
+a{
+    text-decoration: none;
+    color:midnightblue;
+    text-shadow: 2px 2px gainsboro;
+}
+.links{
+    display: inline;
+    padding-left: 32px;
+    padding-right: 22px;
+    font-family: fantasy;
+    font-size: 20px;
+}
